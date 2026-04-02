@@ -1,0 +1,15 @@
+[package]
+name = "hda-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matt Gates <suhteevah@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std Intel High Definition Audio (HDA) driver with codec discovery, widget enumeration, and PCM playback via DMA"
+repository = "https://github.com/suhteevah/hda-nostd"
+keywords = ["audio", "hda", "sound", "no_std", "bare-metal"]
+categories = ["no-std", "hardware-support", "multimedia"]
+readme = "README.md"
+rust-version = "1.70"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
